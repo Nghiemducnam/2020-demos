@@ -1,4 +1,7 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+/*
+  "resolveJsonModule": true ------> to importable *.json file into component.
+*/
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -19,7 +22,8 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "resolveJsonModule": true,
   },
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
